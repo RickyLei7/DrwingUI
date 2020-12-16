@@ -2,15 +2,31 @@
   <div>
     <TopNav/>
     <div class="content">
-      <aside>Aside</aside>
+      <aside>
+        <h2>Components List</h2>
+        <ol>
+          <li>
+            <router-link to="/doc/switch">Switch Component</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/button">Button Component</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/dialog">Dialog Component</router-link>
+          </li>
+          <li>
+            <router-link to="/doc/tabs">Tabs Component</router-link>
+          </li>
+        </ol>
+      </aside>
       <main>Content</main>
     </div>
   </div>
 </template>
 <script lang="ts">
-import TopNav from "../components/TopNav.vue"
+import TopNav from '../components/TopNav.vue';
 
 export default {
   components: {TopNav}
-}
+};
 </script>

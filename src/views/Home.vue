@@ -5,8 +5,8 @@
       <h1>Drwing UI</h1>
       <h2>A UI Framework From Ricky Drwing Tech Inc.</h2>
       <p class="actions">
-        <a href="">GitHub</a>
-        <a href="">Begin</a>
+        <a href="https://github.com">GitHub</a>
+        <router-link to="/doc">Begin</router-link>
       </p>
     </div>
   </div>
