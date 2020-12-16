@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b61ef6c6-f8ac-462e-a9aa-3c903e92d301" name="Default Changelist" comment="Home.vue banner Css Update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b61ef6c6-f8ac-462e-a9aa-3c903e92d301" name="Default Changelist" comment="aside html init">
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608069125318</updated>
-      <workItem from="1608069127077" duration="19260000" />
+      <workItem from="1608069127077" duration="19564000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608076393504</created>
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608155400498</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="aside html init">
+      <created>1608155962433</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608155962433</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +112,7 @@
     <MESSAGE value="topNav Css Update" />
     <MESSAGE value="TopNav Component done" />
     <MESSAGE value="Home.vue banner Css Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home.vue banner Css Update" />
+    <MESSAGE value="aside html init" />
+    <option name="LAST_COMMIT_MESSAGE" value="aside html init" />
   </component>
 </project>
