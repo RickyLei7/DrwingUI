@@ -1,12 +1,6 @@
 <template>
   <div>
-    <div class="topNav">
-      <div class="logo">Logo</div>
-      <ul class="menu">
-        <li>Menu#1</li>
-        <li>Menu#2</li>
-      </ul>
-    </div>
+    <TopNav/>
     <div class="banner">
       <h1>Drwing UI</h1>
       <h2>A UI Framework From Ricky Drwing Tech Inc.</h2>
@@ -18,22 +12,9 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
-.topNav{
-  border: 1px solid red;
-  background: pink;
-  padding: 16px;
-  > .logo{
-    max-width: 6em;
-    margin-right: auto;
-  }
-  .menu{
-    display: flex;
-    white-space: nowrap;
-    flex-wrap: nowrap;
-    > li{
-      margin: 0 1em;
-    }
-  }
+<script lang="ts" >
+import TopNav from "../components/TopNav.vue"
+export default {
+  components: {TopNav}
 }
-</style>
+</script>
