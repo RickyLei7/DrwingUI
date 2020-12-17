@@ -5,6 +5,7 @@
       <li>Menu#1</li>
       <li>Menu#2</li>
     </ul>
+    <span class="toggleAside"></span>
   </div>
 </template>
 <script lang="ts">
@@ -27,7 +28,8 @@ export default {
   padding: 16px;
   position: relative;
   z-index: 10;
-
+  justify-content: center;
+  align-items: center;
   > .logo {
     max-width: 6em;
     margin-right: auto;
@@ -41,6 +43,11 @@ export default {
     > li {
       margin: 0 1em;
     }
+  }
+  > .toggleAside{}
+  @media (max-width: 500px) {
+    > .menu{display: none}
+    > .logo{margin: 0 auto;}
   }
 }
 </style>
