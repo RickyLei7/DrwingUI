@@ -2,8 +2,8 @@
   <div>
     <TopNav/>
     <div class="content">
-      <aside>
-        <h2>Components List</h2>
+      <aside v-if="asideVisible">
+        <h3>Components List</h3>
         <ol>
           <li>
             <router-link to="/doc/switch">Switch Component</router-link>
@@ -25,25 +25,32 @@
 </template>
 <script lang="ts">
 import TopNav from '../components/TopNav.vue';
+import {inject, Ref} from 'vue';
 
 export default {
-  components: {TopNav}
+  components: {TopNav},
+  setup() {
+    const asideVisible = inject<Ref<boolean>>('asideVisible');
+    return {asideVisible};
+  }
 };
 </script>
 
 <style lang="scss" scoped>
-aside{
+aside {
   background: lightblue;
-  width: 150px;
-  padding: 16px;
+  width: 180px;
   position: fixed;
   top: 0;
   left: 0;
-  > h2{
+  padding: 70px 16px 16px;
+
+  > h2 {
     margin-bottom: 4px;
   }
-  >ol{
-    >li{
+
+  > ol {
+    > li {
       padding: 4px 0;
     }
   }
