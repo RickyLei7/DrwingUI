@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <TopNav/>
+  <div class="layout">
+    <TopNav class="nav"/>
     <div class="content">
       <aside v-if="asideVisible">
         <h3>Components List</h3>
@@ -19,7 +19,10 @@
           </li>
         </ol>
       </aside>
-      <main>Content</main>
+      <main>
+        <router-view/>
+        Main hahah
+      </main>
     </div>
   </div>
 </template>
@@ -37,6 +40,39 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  > .nav {
+    flex-shrink: 0;
+  }
+
+  > .content {
+    flex-grow: 1;
+    padding-top: 60px;
+    padding-left: 180px;
+    @media (max-width: 500px) {
+      padding-left: 0;
+    }
+  }
+}
+
+.content {
+  display: flex;
+
+  > aside {
+    flex-shrink: 0;
+  }
+
+  > main {
+    flex-grow: 1;
+    padding: 16px;
+    background: lightgreen;
+  }
+}
+
 aside {
   background: lightblue;
   width: 180px;
@@ -44,6 +80,7 @@ aside {
   top: 0;
   left: 0;
   padding: 70px 16px 16px;
+  height: 100%;
 
   > h2 {
     margin-bottom: 4px;
@@ -54,5 +91,10 @@ aside {
       padding: 4px 0;
     }
   }
+
+  main {
+    overflow: auto;
+  }
 }
 </style>
+
