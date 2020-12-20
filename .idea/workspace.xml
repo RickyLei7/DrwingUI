@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61ef6c6-f8ac-462e-a9aa-3c903e92d301" name="Default Changelist" comment="Done Site init">
+    <list default="true" id="b61ef6c6-f8ac-462e-a9aa-3c903e92d301" name="Default Changelist" comment="switch CSS 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <workItem from="1608069127077" duration="20611000" />
       <workItem from="1608160025027" duration="8884000" />
       <workItem from="1608174739066" duration="2005000" />
-      <workItem from="1608334042606" duration="10427000" />
+      <workItem from="1608334042606" duration="11036000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608076393504</created>
@@ -131,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608443063584</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="switch CSS 1">
+      <created>1608497925198</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608497925198</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +166,8 @@
     <MESSAGE value="Aside toggle done" />
     <MESSAGE value="aside respond" />
     <MESSAGE value="Done Site init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done Site init" />
+    <MESSAGE value="switch CSS 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch CSS 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
