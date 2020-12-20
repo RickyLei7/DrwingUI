@@ -1,7 +1,6 @@
 <template>
   <div>
     <Switch/>
-    switch demo
   </div>
 </template>
 <script lang="ts">

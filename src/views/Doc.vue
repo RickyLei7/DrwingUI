@@ -21,7 +21,6 @@
       </aside>
       <main>
         <router-view/>
-        Main hahah
       </main>
     </div>
   </div>
