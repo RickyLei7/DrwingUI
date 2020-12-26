@@ -1,5 +1,5 @@
 <template>
-  <button @click="toggle" :class="{checked: value}"><span></span></button>
+  <button class="drwing-switch" @click="toggle" :class="{'drwing-checked': value}"><span></span></button>
   <div>{{ value }}</div>
 </template>
 <script lang="ts">
@@ -17,10 +17,10 @@ export default {
   }
 };
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 $h: 22px;
 $h2: $h - 4px;
-button {
+.drwing-switch {
   height: $h;
   width: $h*2;
   border: none;
@@ -39,7 +39,7 @@ button {
     transition: all 250ms;
   }
 
-  &.checked {
+  &.drwing-checked {
     background: #1890ff;
 
     > span {
@@ -57,7 +57,7 @@ button {
     }
   }
 
-  &.checked:active {
+  &.drwing-checked:active {
     > span {
       width: $h2 + 4px;
       margin-left: -4px;
