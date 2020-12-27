@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61ef6c6-f8ac-462e-a9aa-3c903e92d301" name="Default Changelist" comment="create Button.vue">
-      <change afterPath="$PROJECT_DIR$/src/lib/drwing.scss" afterDir="false" />
+    <list default="true" id="b61ef6c6-f8ac-462e-a9aa-3c903e92d301" name="Default Changelist" comment="fix css bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,8 @@
       <workItem from="1608069127077" duration="20611000" />
       <workItem from="1608160025027" duration="8884000" />
       <workItem from="1608174739066" duration="2005000" />
-      <workItem from="1608334042606" duration="29741000" />
+      <workItem from="1608334042606" duration="32874000" />
+      <workItem from="1609027151810" duration="6326000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608076393504</created>
@@ -154,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608591676858</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix css bug">
+      <created>1609022818165</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609022818166</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +192,8 @@
     <MESSAGE value="switch CSS 1" />
     <MESSAGE value="switch function done" />
     <MESSAGE value="create Button.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Button.vue" />
+    <MESSAGE value="fix css bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix css bug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
