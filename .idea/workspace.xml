@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61ef6c6-f8ac-462e-a9aa-3c903e92d301" name="Default Changelist" comment="Button component done">
-      <change afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
+    <list default="true" id="b61ef6c6-f8ac-462e-a9aa-3c903e92d301" name="Default Changelist" comment="Create Dialog component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,8 @@
       <workItem from="1608334042606" duration="32874000" />
       <workItem from="1609027151810" duration="7077000" />
       <workItem from="1609438492343" duration="687000" />
-      <workItem from="1609554320999" duration="1347000" />
+      <workItem from="1609554320999" duration="6163000" />
+      <workItem from="1611279584510" duration="4723000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608076393504</created>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609033976855</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Create Dialog component">
+      <created>1609558249534</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609558249534</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +211,8 @@
     <MESSAGE value="create Button.vue" />
     <MESSAGE value="fix css bug" />
     <MESSAGE value="Button component done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Button component done" />
+    <MESSAGE value="Create Dialog component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Dialog component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
